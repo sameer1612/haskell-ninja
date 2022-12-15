@@ -24,5 +24,4 @@ main :: IO ()
 main = do
   putStrLn $ unwords (["pyths: ", show (pyths 5)])
   putStrLn $ unwords (["perfects: ", show (perfects 500)])
-  putStrLn $
-    unwords (["scalar product: ", show (scalarProduct [1, 2, 3] [4, 5, 6])])
+  putStrLn $ unwords (["scalar product: ", show (scalarProduct [1, 2] [4, 5])])
