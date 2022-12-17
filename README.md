@@ -1,11 +1,12 @@
-# Haskell - Trail of a ninja
+# Haskell Ninja
 
-> Based on tutorial series from Graham Hutton.
-[Youtube playlist link](https://www.youtube.com/playlist?list=PLF1Z-APd9zK7usPMx3LGMZEHrECUGodd3)
+> Based on [Youtube tutorials from Graham Hutton](https://www.youtube.com/playlist?list=PLF1Z-APd9zK7usPMx3LGMZEHrECUGodd3).
 
-## Codes
+## Table of content
 
-1. [Hello World](https://github.com/sameer1612/haskell-ninja/blob/main/fp-in-haskell/day%201%20-%20hello.hs)
-2. [Functions](https://github.com/sameer1612/haskell-ninja/blob/main/fp-in-haskell/day%206%20-%20functions.hs)
-3. [List Comprehension](https://github.com/sameer1612/haskell-ninja/blob/main/fp-in-haskell/day%207%20-%20list%20comprehension.hs)
-4. [Recursion](https://github.com/sameer1612/haskell-ninja/blob/main/fp-in-haskell/day%208%20-%20recursion.hs)
+| Topic | Contents |
+|------------|------------|
+|[Hello World](/fp-in-haskell/day1-hello.hs)|- printing to console|
+|[Functions](/fp-in-haskell/day6-functions.hs)|- tail function using pattern matching, guarded equations and conditionals <br>- logical or implementation using pattern matching <br>- logical and implementation using conditionals|
+|[List Comprehension](/fp-in-haskell/day7-list-comprehension.hs)|- find all pythagorian triplets in range n <br>- find all factors of a number <br>- find all perfect numbers in range n <br>- find scalar product of two integer lists|
+|[Recursion](/fp-in-haskell/day8-recursion.hs)|- check if all booleans in a list are true<br>- concat lists into a single list<br>- generate list of n elements with value x<br>- select i-th element of the list<br>- find if value exists in the list<br>- insertion sort<br>- merge sort|
