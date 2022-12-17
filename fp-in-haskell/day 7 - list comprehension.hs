@@ -8,7 +8,7 @@ pyths n =
   , x ^ 2 + y ^ 2 == z ^ 2
   ]
 
--- find all factors of a number excluding itself.
+-- find all factors of a number.
 factors :: Int -> [Int]
 factors n = [x | x <- [1 .. n], n `mod` x == 0]
 
